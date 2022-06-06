@@ -45,6 +45,7 @@ header .menu ul li a:hover{
 .search {
     height: 64px;
     width: 100%;
+    /* background-color: #3f51b5; */
 }
 
 .search input {
@@ -57,7 +58,6 @@ header .menu ul li a:hover{
     border: none;
     border-bottom: 2px solid #fafafa;
     color: #fafafa;
-
 }
 
 .search button {
@@ -95,14 +95,14 @@ header .menu ul li.btn a:hover{
 
 /*container*/
 
-.home .container {
+.artist .container {
     max-width: 1266px;
     margin: 0 auto;
 }
 
 /*image band*/
 
-.home .person {
+.artist .person {
     float: right;
     margin: 70px 180px 0;
     position: relative;
@@ -110,11 +110,11 @@ header .menu ul li.btn a:hover{
     overflow: hidden;
 }
 
-.home .person img {
+.artist .person img {
     filter: brightness(1.5);
 }
 
-.home .person-overlay {
+.artist .person-overlay {
     content: '';
     padding: absolute;
     top: 0;
@@ -126,22 +126,38 @@ header .menu ul li.btn a:hover{
 }
 /*michael text*/
 
-.home-text {
+.artist-text {
     color: #fff;
-    margin-top: 220px;
+    margin-top: 100px;
     position: absolute;
 }
 
-/* .home-text h6 {
+.artist-text h6 {
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 16px;
-} */
+}
+
+.stats{
+    color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 11px;
+
+}
+
+#groupCaption{
+    color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 13px;
+
+}
 
 .container2{
     display: inline-block;
 }
-.home-text h6 {
+/* .artist-text h6 {
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 1.6rem;
@@ -154,40 +170,39 @@ header .menu ul li.btn a:hover{
 @keyframes typing {
     from { width: 0 }
     to { width: 16%}
-}
+} */
 
 
-.home-text h1 {
+.artist-text h1 {
     text-transform: uppercase;
-    font-size: 100px;
+    font-size: 60px;
 }
 
-.home-text p {
+.artist-text p {
     max-width: 500px;
     font-size: 16px;
     margin-top: 230px;
 }
 
-.home-text .name span {
+.artist-text .name span {
     margin-right: 130px;
     display: inline-block;
 }
 
-.home-text .name span:last-child {
+.artist-text .name span:last-child {
     margin-right: 0;
 }
+/* 
+DEFAULT STATE HIDE
 
-/* DEFAULT STATE HIDE */
-
-.home .person img ,
-.studnt span,
+.artist .person img ,
+.student span,
 .name span,
 .logo,
 .menu li,
-.search,
 .small-intro span{
     opacity: 0;
-}
+} */
 
 
 

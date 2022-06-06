@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./artist.css">
     <title>Fusion</title>
 </head>
 <body>
- 
     <div class="wrapper">
         <header>
             <div class="search">
                 <div class="container7">
                  <input type="text" placeholder="search"><button>Search</button>
                 </div>
+            </div>
+            <div class="logo">
+                <img src="#" alt="">
             </div>
             <div class="menu">
                 <ul>
@@ -27,16 +29,26 @@
                 </ul>
             </div>
         </header>
-        <div class="home">
+       
+        <div class="artist">
             <div class="container">
                 <div class="person">
                     <span class="person-overlay"></span>
-                    <img src="./miles5.jpg" alt="">
+                    <img src="./assets/jazzfusion2.jpg" alt="" class="border" id="groupImage">
+                    <p class="caption" id="groupCaption">Photo</p>
                 </div>
-                <div class="home-text">
-                    <h6 class="student" class="container2">Genre</h6>
-                    <h1 class="name">Fusion</h1>
-                    <p class="small-intro">Hello...Let's take a journey into the world of Fusion.</p>
+                <div class="artist-text">
+                    <h6 class="student" class="container2">Group</h6>
+                    <h1 class="groupName">Artists</h1>
+                    <h1 class="groupName">Page</h1>
+                    <h1 class="groupName"></h1>
+                    <div class="stats">
+                        <h3 class="yearsActive">Years Active: </h3>
+                        <h3 class="musicians">Musicians: </h3>
+                        <h3 class="realeases">Releases: </h3>
+                    </div>
+                   
+                    <!-- <p class="small-intro">Hello...Let's take a journey into the world of Fusion.</p> -->
                 </div>
             </div>
         </div>
@@ -48,7 +60,7 @@
     <!-- LETTERING JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 
-    <script src="./fusion.js"></script>
+    <script src="./artist.js"></script>
      <script src="./main.js"></script>
 
 </body>
