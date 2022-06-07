@@ -127,6 +127,8 @@ header .menu ul li.btn a:hover{
 /*michael text*/
 
 .artist-text {
+    width: 100px;
+    height: 200px;
     color: #fff;
     margin-top: 100px;
     position: absolute;
