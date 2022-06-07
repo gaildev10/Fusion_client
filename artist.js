@@ -6,14 +6,14 @@ async function apiRequest(){
     try{
         const response = await fetch(`https://simple-fusion-api.herokuapp.com/api/${groupName}`)
         const data = await response.json()
+        console.log(data)
 
         document.querySelector('.groupName').innerText=data.groupName
         document.querySelector('.yearsActive').innerText=data.yearsActive
-        document.querySelector('.recordLabel').innerText=data.recordLabel
-        document.querySelector('.musicians').innerText=data.musicians['musicianName']
-        document.querySelector('.releases').innerText=data.releases
-        document.querySelector('.border').src=data.border
-        document.querySelector('#groupCaption').innerText=data.groupCaption
+        // document.querySelector('.recordLabel').innerText=data.recordLabel
+        // document.querySelector('.musicians').innerText=data.musicians
+        // document.querySelector('.releases').innerText=data.releases
+        document.querySelector('.groupImage').src=data.image
        
 
 
