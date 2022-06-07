@@ -12,7 +12,7 @@ async function apiRequest(){
         document.querySelector('.recordLabel').innerText=data.recordLabel
         document.querySelector('.musicians').innerText=data.musicians['musicianName']
         document.querySelector('.releases').innerText=data.releases
-        document.querySelector('#groupImage').src=data.groupImage
+        document.querySelector('.border').src=data.border
         document.querySelector('#groupCaption').innerText=data.groupCaption
        
 
